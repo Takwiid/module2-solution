@@ -1,0 +1,96 @@
+/* for all elements */
+* {
+  box-sizing: border-box;
+}
+/* Styling for the page title */
+h1 {
+	font-size: 27px;
+	font-family: Georgia serif;
+	text-align: center;
+	color:black;
+	margin-bottom: 30px;
+}
+/* Styling for the paragraphs */
+p {
+	padding: 15px 5px 0px 5px;
+	font-family: Georgia sans-serif;
+	font-size: 16px;
+	position: relative;
+  height: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+/* Styling for each section */
+.section { 
+	background-color: rgb(150, 150, 150);
+   	border: 2px solid black;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	padding: 3px;
+   	text-align: justify;
+   	position: relative;
+ }
+/* Styling for the item titles */
+span {
+	font-size: 20px;
+	width: 160px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; 
+  top :0; 
+  right: 0; 
+  margin: 0;
+	position: absolute;
+}
+/* Styling for the Thicken item */
+#title1 {
+	background-color: rgb(103, 146, 239);
+	color: rgb(0, 0, 0);
+}
+/* Styling for the Reef item */
+#title2 {
+	background-color: rgb(146, 39, 39);
+	color: rgb(250, 250, 250);
+}
+/* Styling for the Brush item */
+#title3 {
+	background-color: rgb(200, 200, 100);
+	color: rgb(0, 0, 0);
+}
+
+/* Styling for the row */
+.row {
+	width: 100%;
+}
+
+/* Desktop PC view */
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* Cell phone view */
+@media (max-width: 767px)  {
+  
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+  }
+}
